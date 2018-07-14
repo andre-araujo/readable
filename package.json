@@ -61,7 +61,7 @@
     ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "setupTestFrameworkScriptFile": "<rootDir>/__mocks__/setup.js",
     "coverageThreshold": {
@@ -80,19 +80,20 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "clone": "^2.1.1",
+    "cors": "^2.8.3",
     "cross-env": "^5.1.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
     "parcel-bundler": "^1.9.4",
     "postcss-modules": "^1.1.0",
     "postcss-pxtorem": "^4.0.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-router-dom": "^4.3.1",
     "request": "^2.85.0",
-    "whatwg-fetch": "^2.0.4",
-    "express": "^4.16.3",
-    "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
-    "dotenv": "^4.0.0",
-    "clone": "^2.1.1"
+    "whatwg-fetch": "^2.0.4"
   }
 }

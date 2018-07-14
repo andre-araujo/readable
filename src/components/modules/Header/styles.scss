@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+  background: #fafafa;
+}
+
+
+.link {
+  + .link {
+    margin-left: 15px;
+  }
+}

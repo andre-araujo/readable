@@ -6,6 +6,7 @@ body {
   font-family: Roboto;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  background: rgb(218, 224, 230);
 
   @media (min-width: $sm) {
     font-size: 16px;

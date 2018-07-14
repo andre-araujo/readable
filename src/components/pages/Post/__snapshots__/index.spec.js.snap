@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post should match snapshot 1`] = `
+<div>
+  <h1>
+    Post
+  </h1>
+</div>
+`;
