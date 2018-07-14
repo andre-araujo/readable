@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard should match snapshot 1`] = `
+<section>
+  <header>
+    <h1 />
+    <p>
+      By: 
+    </p>
+  </header>
+  <div>
+    <p />
+  </div>
+  <footer>
+    <time />
+    <p />
+  </footer>
+</section>
+`;

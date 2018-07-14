@@ -10,13 +10,13 @@ exports[`Header should match snapshot 1`] = `
   </Link>
   <Link
     replace={false}
-    to="/category/:id"
+    to="/category/1"
   >
     Categories
   </Link>
   <Link
     replace={false}
-    to="/post/:id"
+    to="/post/1"
   >
     Posts
   </Link>
