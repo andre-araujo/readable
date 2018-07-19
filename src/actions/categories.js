@@ -9,7 +9,7 @@ export function getCategories() {
       .then(resp => resp.json())
       .then((payload) => dispatch({
         payload,
-        type: 'CATEGORIES'
+        type: CATEGORIES
       }));
 }
 
@@ -19,6 +19,6 @@ export function getCategoryPosts(categoryId) {
       .then(resp => resp.json())
       .then((payload) => dispatch({
         payload,
-        type: 'CATEGORY_POSTS'
+        type: CATEGORY_POSTS
       }));
 }

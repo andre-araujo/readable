@@ -4,11 +4,11 @@ import {
  } from "../actions";
 
 export default function categoriesReducer(state = {}, action = {}) {
-  switch(action.types) {
+  switch(action.type) {
     case CATEGORIES:
       return {
         ...state,
-        categories: action.payload
+        ...action.payload
       }
 
     case CATEGORY_POSTS:

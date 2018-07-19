@@ -7,7 +7,7 @@ import {
 } from "../actions";
 
 export default function commentsReducer(state = {}, action = {}) {
-  switch (action.types) {
+  switch (action.type) {
     case CREATED_COMMENT:
       return {
         ...state,

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostList should match snapshot 1`] = `
+<ul>
+  <li>
+    <PostCard
+      author="author"
+      body="body"
+      category="category"
+      id="id"
+      timestamp="timestamp"
+      title="title"
+      voteScore="voteScore"
+    />
+  </li>
+</ul>
+`;
