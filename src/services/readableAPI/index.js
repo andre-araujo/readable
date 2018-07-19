@@ -1,3 +1,7 @@
 import fetchHandler from '../../lib/fetchHandler';
 
-export const readableAPI = (...args) => fetchHandler(...args);
+export const getCategories = (...args) => fetchHandler(...args);
+
+export const getPosts = (...args) => fetchHandler(...args);
+
+export const getComments = (...args) => fetchHandler(...args);

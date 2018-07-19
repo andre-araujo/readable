@@ -8,7 +8,7 @@ function fetchHandler(url, options = {}) {
   const {headers, otherOptions} = options;
 
   return fetch(
-    url,
+    'http://localhost:3001' + url,
     {
       ...otherOptions,
       headers: {

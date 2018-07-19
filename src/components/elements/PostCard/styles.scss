@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  background: #fafafa;
+  font-family: AvantGardeLight
+}
+
+.footer {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 14px;
+  color: #666;
+}
+
+.title {
+  font-family: AvantGardeDemi;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.author {
+  font-family: AvantGardeMedium;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
